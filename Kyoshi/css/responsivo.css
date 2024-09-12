@@ -1,0 +1,151 @@
+@media (width <=1010px) {
+
+    .container-carrosel {
+        margin-top: 0px;
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .container-arma {
+        height: 100vh;
+    }
+
+    .arma-conteudo {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .container-kyoshi {
+        grid-template-columns: 1fr;
+        min-height: 70vh;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-kyoshi img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container-kyoshi h1 {
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
+
+    .conteudo-hardware {
+        display: grid;
+        grid-template-columns: repeat(2, 2FR);
+        justify-items: center;
+        gap: 1rem;
+    }
+
+
+    .conteudo-video {
+        width: 100%;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+
+    .container-video iframe {
+        width: 50%;
+    }
+
+}
+
+
+
+
+@media (width <=680px) {
+    .container-carrosel {
+        min-height: 30vh;
+    }
+
+    .container-arma {
+        height: 90vh;
+    }
+
+    .arma-conteudo {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+
+    .img-arma {
+        height: 45%;
+    }
+
+
+    .container-kyoshi {
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+        width: 80%;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-kyoshi img {
+        width: 100%;
+    }
+
+    .container-kyoshi p {
+        font-size: 1.3rem;
+    }
+
+    .container-kyoshi h1 {
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
+
+
+    .conteudo-hardware {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 1.6rem;
+    }
+
+    .conteudo-video {
+        width: 80%;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .container-video iframe {
+        width: 100%;
+    }
+
+
+    .footer-superior {
+        width: 70%;
+    }
+
+    .footer-superior img {
+        height: 70%;
+    }
+
+    .footer-inferior {
+        height: 45%;
+        width: 80%;
+    }
+
+    .footer-inferior p {
+        font-size: 1.2rem;
+    }
+
+    .icon-footer {
+        gap: 1rem;
+    }
+
+    .icon-footer i {
+        font-size: 1.5rem;
+    }
+
+}
